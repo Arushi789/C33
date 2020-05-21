@@ -123,9 +123,7 @@ async function getBackgroundImg(){
         bg = "sprites/bg2.jpg";
     }
 
-    if (zone==="Asia/Kolkata"){
-        bg = "sprites/indiaBg.jpg";
-    }
+    
 
     backgroundImg = loadImage(bg);
     console.log(backgroundImg);
